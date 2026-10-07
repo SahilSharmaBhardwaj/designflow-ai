@@ -1,7 +1,11 @@
 # DesignFlow AI
 
 <p align="center">
-  <strong>An open-source, AI-assisted product-design toolkit that transforms product requirements into structured UX artifacts.</strong>
+  <img src="public/workbench-preview.svg" alt="DesignFlow AI Workbench Preview" width="850" />
+</p>
+
+<p align="center">
+  <strong>DesignFlow AI is an open-source AI-assisted toolkit for turning product requirements into structured UX artifacts.</strong>
 </p>
 
 <p align="center">
@@ -17,8 +21,9 @@
   <a href="#12-ai-provider-architecture">AI Providers</a> •
   <a href="#13-security-considerations">Security</a> •
   <a href="#14-roadmap">Roadmap</a> •
-  <a href="#15-contributing">Contributing</a> •
-  <a href="#16-license">License</a>
+  <a href="CONTRIBUTING.md">Contributing</a> •
+  <a href="SECURITY.md">Security Policy</a> •
+  <a href="LICENSE">License</a>
 </p>
 
 ---
@@ -236,9 +241,15 @@ designflow-ai/
 │   ├── product.md                      # Product specifications & heuristics
 │   ├── architecture.md                 # System architecture & security model
 │   └── roadmap.md                      # Milestones and development plan
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md               # Bug report template
+│   │   └── feature_request.md          # Feature request template
+│   └── pull_request_template.md        # Pull request quality checklist
 ├── .env.example                        # Template environment variables
 ├── .gitignore                          # Git ignore definitions
 ├── CONTRIBUTING.md                     # Contributor guidelines
+├── SECURITY.md                         # Security policy & disclosure instructions
 ├── LICENSE                             # MIT License
 ├── package.json                        # Project dependencies and scripts
 ├── postcss.config.js                   # PostCSS pipeline configuration
@@ -285,7 +296,9 @@ export interface AIProvider {
 - **Zero Client-Side Key Exposure**: External API keys (`ANTHROPIC_API_KEY`, `OPENAI_API_KEY`) are evaluated exclusively inside server-side Next.js Route Handlers (`/api/generate`). No keys or secrets are ever bundled into client JavaScript or exposed to browser network tabs.
 - **Safe Environment Defaults**: `.env` and `.env*.local` files are ignored in `.gitignore`. `.env.example` contains only placeholder dummy values.
 - **Local-First Privacy**: User projects, requirements, and generated artifacts are stored in the user's browser `localStorage`. No analytics or telemetry trackers are injected.
-- **Sanitized Error Logging**: Upstream provider errors (e.g. rate limits, network timeouts) are caught and returned as user-friendly messages without leaking connection headers or authorization tokens.
+- **Sanitized Error Logging**: Upstream provider errors (e.g. rate limits or connection failures) are caught and returned as user-friendly messages without leaking connection headers or authorization tokens.
+
+See [SECURITY.md](SECURITY.md) for vulnerability reporting guidelines.
 
 ---
 
@@ -319,7 +332,7 @@ Contributions are welcome from product designers, UX researchers, and developers
 
 1. Fork the repository.
 2. Create a feature branch: `git checkout -b feature/your-feature-name`.
-3. Commit your changes with meaningful messages: `git commit -m "feat(audit): add touch target heuristic rule"`.
+3. Commit your changes: `git commit -m "feat(audit): add touch target heuristic rule"`.
 4. Validate changes:
    ```bash
    npm run typecheck

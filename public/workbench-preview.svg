@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#09090b"/>
+      <stop offset="100%" stop-color="#121216"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0" y1="0" x2="200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <filter id="shadow" x="-10" y="-10" width="1020" height="580" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="12" stdDeviation="24" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1000" height="560" rx="16" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="999" height="559" rx="15.5" stroke="#27272a" stroke-width="1"/>
+
+  <!-- Top App Window Bar -->
+  <rect x="0" y="0" width="1000" height="48" rx="16" fill="#0d0d11"/>
+  <circle cx="28" cy="24" r="6" fill="#f43f5e" opacity="0.8"/>
+  <circle cx="46" cy="24" r="6" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="64" cy="24" r="6" fill="#10b981" opacity="0.8"/>
+
+  <!-- App Title & Badges in Top Bar -->
+  <text x="96" y="28" fill="#fafafa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700">DesignFlow AI</text>
+  <text x="190" y="28" fill="#71717a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12">/ project / BondsPe — Secondary Bond Trading Flow</text>
+
+  <rect x="800" y="14" width="80" height="22" rx="6" fill="#132e2b" stroke="#115e59" stroke-width="1"/>
+  <text x="814" y="29" fill="#2dd4bf" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10" font-weight="600">Mock AI</text>
+
+  <rect x="890" y="14" width="90" height="22" rx="6" fill="#18181b" stroke="#27272a" stroke-width="1"/>
+  <text x="902" y="29" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10" font-weight="600">Export Specs</text>
+
+  <!-- Tab Navigation Bar -->
+  <rect x="24" y="68" width="952" height="42" rx="8" fill="#111114" stroke="#232328" stroke-width="1"/>
+  
+  <!-- Active Tab: User Flow -->
+  <rect x="30" y="74" width="120" height="30" rx="6" fill="#18181b" stroke="#14b8a6" stroke-width="1"/>
+  <text x="50" y="93" fill="#2dd4bf" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="600">1. User Flow</text>
+  <circle cx="42" cy="90" r="3" fill="#14b8a6"/>
+
+  <!-- Other Tabs -->
+  <text x="180" y="93" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12">2. UX Audit</text>
+  <text x="290" y="93" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12">3. User Stories</text>
+  <text x="420" y="93" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12">4. Research Guide</text>
+  <text x="570" y="93" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12">5. Usability Testing</text>
+  <text x="730" y="93" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12">6. Design Brief</text>
+
+  <!-- Step Pathway Header -->
+  <text x="24" y="140" fill="#71717a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="700" letter-spacing="1">INTERACTIVE HAPPY PATH (5 STEPS)</text>
+  <text x="840" y="140" fill="#71717a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11">Click node to inspect</text>
+
+  <!-- Node 1 (Selected) -->
+  <rect x="24" y="154" width="180" height="88" rx="10" fill="#16161a" stroke="#14b8a6" stroke-width="1.5"/>
+  <rect x="36" y="166" width="20" height="20" rx="10" fill="#14b8a6"/>
+  <text x="43" y="180" fill="#09090b" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="800">1</text>
+  <text x="64" y="180" fill="#fafafa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="700">Intent & Entry</text>
+  <text x="36" y="206" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10">Reviews bond yield & stats</text>
+  <text x="36" y="222" fill="#71717a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="9">UI: Dashboard Widget</text>
+
+  <!-- Node 2 -->
+  <rect x="216" y="154" width="180" height="88" rx="10" fill="#111114" stroke="#27272a" stroke-width="1"/>
+  <rect x="228" y="166" width="20" height="20" rx="10" fill="#27272a"/>
+  <text x="235" y="180" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="800">2</text>
+  <text x="256" y="180" fill="#fafafa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="600">YTM Calculation</text>
+  <text x="228" y="206" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10">Configures investment qty</text>
+  <text x="228" y="222" fill="#71717a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="9">UI: Live Cashflow Table</text>
+
+  <!-- Node 3 (Branch Point) -->
+  <rect x="408" y="154" width="180" height="88" rx="10" fill="#111114" stroke="#27272a" stroke-width="1"/>
+  <rect x="420" y="166" width="20" height="20" rx="10" fill="#27272a"/>
+  <text x="427" y="180" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="800">3</text>
+  <text x="448" y="180" fill="#fafafa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="600">Quote Lock & 2FA</text>
+  <text x="420" y="206" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10">60s lock + SEBI notice</text>
+  <rect x="520" y="166" width="56" height="18" rx="4" fill="#38290f" stroke="#b45309" stroke-width="1"/>
+  <text x="528" y="179" fill="#fcd34d" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="9" font-weight="700">Branch</text>
+
+  <!-- Node 4 -->
+  <rect x="600" y="154" width="180" height="88" rx="10" fill="#111114" stroke="#27272a" stroke-width="1"/>
+  <rect x="612" y="166" width="20" height="20" rx="10" fill="#27272a"/>
+  <text x="619" y="180" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="800">4</text>
+  <text x="640" y="180" fill="#fafafa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="600">Execution State</text>
+  <text x="612" y="206" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10">Optimistic settlement</text>
+  <text x="612" y="222" fill="#71717a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="9">UI: Stepper Indicator</text>
+
+  <!-- Node 5 -->
+  <rect x="792" y="154" width="184" height="88" rx="10" fill="#111114" stroke="#27272a" stroke-width="1"/>
+  <rect x="804" y="166" width="20" height="20" rx="10" fill="#27272a"/>
+  <text x="811" y="180" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="800">5</text>
+  <text x="832" y="180" fill="#fafafa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="600">Confirmation</text>
+  <text x="804" y="206" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10">PDF receipt generated</text>
+  <text x="804" y="222" fill="#71717a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="9">UI: Success Banner</text>
+
+  <!-- Detailed Step Inspector Card -->
+  <rect x="24" y="260" width="952" height="276" rx="12" fill="#111114" stroke="#27272a" stroke-width="1"/>
+  <rect x="24" y="260" width="4" height="276" rx="2" fill="#14b8a6"/>
+
+  <text x="44" y="292" fill="#fafafa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="700">Step 1: Entry &amp; Intent Discovery</text>
+  <text x="320" y="292" fill="#2dd4bf" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="600">[Persona: Retail Indian Investor]</text>
+  
+  <rect x="840" y="276" width="120" height="26" rx="6" fill="#16161a" stroke="#27272a" stroke-width="1"/>
+  <text x="860" y="293" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="600">Edit Step Details</text>
+
+  <!-- Action Box -->
+  <rect x="44" y="316" width="440" height="130" rx="8" fill="#16161a" stroke="#232328" stroke-width="1"/>
+  <text x="60" y="340" fill="#14b8a6" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="700">USER ACTION &amp; PSYCHOLOGY</text>
+  <text x="60" y="364" fill="#fafafa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12">Navigates to the Bond Trading screen and explores high-yield bonds.</text>
+  <text x="60" y="388" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11">Emotional State: Curious, seeking yield comparisons vs Fixed Deposits.</text>
+  <text x="60" y="416" fill="#71717a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10">Touchpoint: Primary Card CTA ("Invest Now")</text>
+
+  <!-- Response Box -->
+  <rect x="500" y="316" width="460" height="130" rx="8" fill="#16161a" stroke="#232328" stroke-width="1"/>
+  <text x="516" y="340" fill="#10b981" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="700">SYSTEM RESPONSE &amp; HEURISTIC VERIFICATION</text>
+  <text x="516" y="364" fill="#fafafa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12">Renders itemized yield breakdown, issuer rating badge (AAA), and SEBI tags.</text>
+  <text x="516" y="388" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11">Heuristic #1: System status transparency with live price update indicators.</text>
+  <text x="516" y="416" fill="#71717a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10">WCAG 2.2: 4.8:1 contrast achieved on all helper text</text>
+
+  <!-- Bottom Bar with Edge Case -->
+  <rect x="44" y="460" width="916" height="56" rx="6" fill="#1b1712" stroke="#451a03" stroke-width="1"/>
+  <text x="60" y="484" fill="#fbbf24" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="700">EDGE CASE RECOVERY STRATEGY</text>
+  <text x="60" y="502" fill="#d4d4d8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11">If bond quote expires during verification, system pauses countdown and presents instant 1-click rate refresh without losing entered inputs.</text>
+</svg>
