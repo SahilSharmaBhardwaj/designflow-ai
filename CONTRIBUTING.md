@@ -16,7 +16,7 @@ We are committed to providing a welcoming, inclusive, and harassment-free enviro
 ### 2. Setting Up Local Environment
 ```bash
 # Fork & clone the repo
-git clone https://github.com/your-username/designflow-ai.git
+git clone https://github.com/SahilSharmaBhardwaj/designflow-ai.git
 cd designflow-ai
 
 # Install dependencies
