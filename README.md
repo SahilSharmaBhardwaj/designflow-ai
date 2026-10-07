@@ -3,10 +3,13 @@
 > **DesignFlow AI is an open-source AI-assisted toolkit for turning product requirements into structured UX artifacts.**
 
 [![MIT License](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-designflow--ai.vercel.app-00dfa2.svg?logo=vercel)](https://designflow-ai-bice.vercel.app/)
 [![Next.js](https://img.shields.io/badge/Next.js-14.2-black.svg?logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue.svg?logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38bdf8.svg?logo=tailwindcss)](https://tailwindcss.com/)
 [![Status](https://img.shields.io/badge/Status-Open--Source_MVP_v0.1.0-emerald.svg)]()
+
+> 🚀 **Live Demo:** [https://designflow-ai-bice.vercel.app/](https://designflow-ai-bice.vercel.app/)
 
 ---
 
