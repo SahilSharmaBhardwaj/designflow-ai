@@ -252,6 +252,16 @@ For full security policy and vulnerability reporting, see [SECURITY.md](SECURITY
 
 ---
 
+## Market Validation Playbook
+
+For professional problem-first execution before building new features/products, use:
+
+- [docs/market-validation-playbook.md](docs/market-validation-playbook.md)
+
+This playbook covers problem validation, market gap analysis, MVP scoping, rapid user testing, go/pivot decisions, and iterative execution.
+
+---
+
 ## Contributing
 
 We welcome contributions from designers, product managers, and software engineers!
