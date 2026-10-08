@@ -197,6 +197,14 @@ ANTHROPIC_API_KEY=sk-ant-api03-your-real-key-here
 ANTHROPIC_MODEL=claude-3-5-sonnet-20241022`}
               </pre>
             </div>
+
+            <div>
+              <h2 className="text-lg font-bold text-white mb-2">Professional Discovery-to-Build Workflow</h2>
+              <p className="text-xs text-zinc-400">
+                Before implementation, follow the market validation execution guide at{' '}
+                <code className="text-teal-400 font-mono">docs/market-validation-playbook.md</code> to validate real user pain, define MVP scope, and set objective go/pivot criteria.
+              </p>
+            </div>
           </Card>
         )}
       </div>
